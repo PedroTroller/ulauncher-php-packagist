@@ -1,0 +1,17 @@
+{
+	"required_api_version": "^2.0.0",
+	"name": "Packagist",
+	"description": "PHP packages search with Packagist",
+	"developer_name": "Pierre PLAZANET",
+	"icon": "images/PHP.png",
+	"options": {
+		"query_debounce": 0.5
+	},
+	"preferences": [{
+		"id": "php_kw",
+		"type": "keyword",
+		"name": "php",
+		"description": "Search for PHP packages",
+		"default_value": "php"
+	}]
+}
